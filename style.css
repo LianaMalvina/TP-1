@@ -1,0 +1,163 @@
+*{margin:0;padding: 0;}
+
+:root{--color-primario: rgba(105, 105, 105, 0.178);
+    --color-secundario:rgb(238, 234, 234);
+    --color-terciario:rgb(245, 10, 81);
+    --color-general: rgb(76, 75, 75);
+}
+
+body{background-color: rgb(238, 234, 234);}
+
+h2{color:var(--color-general)}
+
+/*   HEADER  */
+
+header{display: flex; justify-content: space-between;padding: 10px 16px;align-items: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+header nav a{text-decoration: none; color: var(--color-general); font-size: 12px;}
+
+header nav li{text-decoration: none; list-style: none;}
+
+ul{display: flex; gap: 20px;width: 100%; padding: 20px 10px;}
+
+
+button{ border-bottom: none; background-color: var(--color-secundario); border: 0; padding: 7px 15px;
+     color: var(--color-terciario); border-radius: 2px; 
+    ; box-shadow: 0 3px 10px rgb(76, 75, 75); font-size: 11px; box-sizing: content-box;}
+
+
+
+
+
+/*   MAIN   */
+
+main{display: flex; padding: 100px 50px;}
+
+.titulos, .bienvenida h3{  text-decoration: none; font-size: 15px; color: var(--color-general); list-style: none;
+font-family: Arial, Helvetica, sans-serif;}
+
+.subtitulo{ font-size: 25px; font-family: Arial, Helvetica, sans-serif;color: var(--color-general);}
+
+.mir, .asolo{color: rgb(245, 10, 81); font-size: 35px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+h3{ list-style: none; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; 
+    color:var(--color-general);}
+
+h1{ color: var(--color-general);font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+ 
+.parrafo{ font-family: Arial, Helvetica, sans-serif; padding: 40px 0; text-align: left; 
+color: var(--color-general);vertical-align: auto;} 
+
+
+.cab{display: flex; margin-left: 0px;}
+
+.izquierdo{width: 700px; height: 300px; margin-right: 50px;}
+
+.cabeza{ margin-top: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-family: 10px;
+    color: var(--color-general);
+ }
+.cabeza .list-f{justify-content: center;}
+
+img{ border-radius: 10px; box-shadow: 0px 3px 10px rgb(56, 55, 55);}
+    
+
+.icons{ justify-content: left; padding: 5px ; display: flex; margin-top: 0;}
+
+.icon i{ background-color: var(--color-secundario); padding: 10px; border-radius: 3px;
+     box-shadow: 0 3px 10px rgb(76, 75, 75); justify-content: left; text-align: left;}
+
+.tres{display: flex; gap: 10px; padding: 20px 0px;}
+
+.ppal{display: list-item;}
+
+.icons{display: flex;}
+
+.icon{display: flex; gap:10px; padding: 10px;}
+
+.list{display: flex; column-gap: 200px; text-align: left;}
+
+
+
+/*-------SECCION FEATURES---------------*/
+.cajas{ margin-top: 1px; justify-content: center;}
+
+.contenedor0{justify-content: center;}
+
+.hago{font-size: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.futuro{color: palevioletred; font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.contenedor1{ display: flex; justify-content: center; width: 90%; margin: 50px auto;}  
+
+.tarjeta {width: 150%; height: 200px; rgb(235, 235, 216);max-width: 250px;margin: 10px;padding: 20px;
+    border-radius: 10px;box-shadow: 10px 10px 3px 3px #85848611;text-align: center;display: flexbox;}
+
+
+
+/*----SECCION PORTAFOLIO-----*/
+
+.portafolio{ margin-top: 100px;}
+
+.folio{font-size: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;}
+.porta{color: var(--color-terciario); font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-family: 10px; text-align: center;}
+
+.portafolio1{ justify-content: left; width: 50%; margin: 50px auto; display: flex;}
+
+.cajas1{ width: 50%; height: 200px; rgb(235, 235, 216);max-width: 250px;margin: 10px;padding: 20px;
+    border-radius: 10px;box-shadow: 10px 10px 3px 3px #85848611;text-align: center;display: flexbox;
+
+}
+
+.imag img{width: 100%; border-radius: 10px; margin-bottom: 10%;
+}
+
+
+/**-------TESTIMONIOS--------*/
+
+.test{ margin-top: 150px;}
+.testimonios{ justify-content: center; color: var(--color-terciario);
+font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 10px; text-align: center;}
+
+.testimonio{text-align: center;}
+.client{
+    margin-top: 50px; display: flex; justify-content: center;
+}
+
+.cliente{ display: flex; justify-content: left; margin: 50px auto; margin-top: 50px;}
+
+.clientes{display: flexbox; }
+
+.cliente{width: 100%; border-radius: 10px; margin-bottom: 10%;
+    height: 200px; rgb(235, 235, 216);max-width: 250px;margin: 10px;padding: 20px;
+    border-radius: 10px;box-shadow: 10px 10px 3px 3px #85848611;text-align: center;display: flexbox;
+}
+
+
+
+/*SECCION MI BLOG*/
+
+.miblog{ margin-top: 150px; text-align: center;}
+
+.miblogg{ justify-content: center; display: flex; box-shadow: #85848611;}
+
+.otra{width: 100%; border-radius: 10px; margin-bottom: 10%;
+    height: 200px; rgb(235, 235, 216);max-width: 250px;margin: 10px;padding: 20px;
+    border-radius: 10px;box-shadow: 10px 10px 3px 3px #85848611;text-align: center;display: flexbox;}
+
+.uno img{ width: 100%; border-radius: 10px; margin-bottom: 50px; background-color: aqua;}
+
+
+
+/*contacto*/
+
+.contacto{ margin-top: 100px; text-align: center;}
+.ult{display: flex; text-align: center;}
